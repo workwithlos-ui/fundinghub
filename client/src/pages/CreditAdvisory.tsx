@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum
+/* Design: Growth Engine - Dynamic Momentum
  * Credit Advisory $1,500 package landing page */
 import { useState } from "react";
 import { Link } from "wouter";

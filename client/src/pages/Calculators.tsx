@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum
+/* Design: Growth Engine - Dynamic Momentum
  * Funding calculators: Loan Payment + Credit Stacking */
 import { useState } from "react";
 import { Link } from "wouter";

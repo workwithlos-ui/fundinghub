@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum
+/* Design: Growth Engine - Dynamic Momentum
  * Sticky top nav with transparent-to-solid scroll transition */
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
@@ -12,6 +12,7 @@ const navLinks = [
   { label: "Credit Advisory", href: "/credit-advisory" },
   { label: "Resources", href: "/blog" },
   { label: "Partner Program", href: "/partners" },
+  { label: "AI Advisor", href: "/ai-advisor" },
 ];
 
 const fundingDropdown = [
@@ -167,6 +168,9 @@ export default function Navbar() {
               </Link>
               <Link href="/partners" className="block px-3 py-2.5 text-sm text-slate-700 hover:bg-slate-50 rounded-lg">
                 Partner Program
+              </Link>
+              <Link href="/ai-advisor" className="block px-3 py-2.5 text-sm text-slate-700 hover:bg-slate-50 rounded-lg">
+                AI Advisor
               </Link>
               <Link href="/dashboard" className="block px-3 py-2.5 text-sm text-slate-700 hover:bg-slate-50 rounded-lg">
                 Dashboard

@@ -13,6 +13,7 @@ import Calculators from "./pages/Calculators";
 import FAQ from "./pages/FAQ";
 import Partners from "./pages/Partners";
 import CreditAdvisory from "./pages/CreditAdvisory";
+import AIAdvisor from "./pages/AIAdvisor";
 
 function Router() {
   return (
@@ -27,6 +28,7 @@ function Router() {
       <Route path="/faq" component={FAQ} />
       <Route path="/partners" component={Partners} />
       <Route path="/credit-advisory" component={CreditAdvisory} />
+      <Route path="/ai-advisor" component={AIAdvisor} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
@@ -36,7 +38,7 @@ function Router() {
 function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider defaultTheme="light">
+      <ThemeProvider defaultTheme="dark">
         <TooltipProvider>
           <Toaster />
           <Router />

@@ -1,6 +1,6 @@
 /* ============================================================
- * FundingHub — Centralized data store
- * Design: "Growth Engine" — Dynamic Momentum
+ * FundingHub - Centralized data store
+ * Design: "Growth Engine" - Dynamic Momentum
  * All static content for the platform lives here
  * ============================================================ */
 
@@ -37,15 +37,15 @@ export const fundingOptions: FundingOption[] = [
     slug: "credit-stacking",
     title: "0% Credit Card Stacking",
     shortTitle: "Credit Card Stacking",
-    tagline: "Access $50K–$250K+ in 0% interest business credit cards",
+    tagline: "Access $50K-$250K+ in 0% interest business credit cards",
     description: "Our credit card stacking program helps you secure multiple 0% APR business credit cards simultaneously, giving you access to substantial capital with no interest for 12-21 months. This is the fastest, most flexible funding option for businesses with good personal credit.",
     icon: "CreditCard",
     color: "#1e40af",
     minAmount: "$50,000",
     maxAmount: "$250,000+",
-    termRange: "12–21 months at 0% APR",
-    rateRange: "0% intro APR, then 15–24%",
-    speed: "7–14 days",
+    termRange: "12-21 months at 0% APR",
+    rateRange: "0% intro APR, then 15-24%",
+    speed: "7-14 days",
     creditMin: "680+",
     requirements: [
       "Personal credit score of 680+",
@@ -55,7 +55,7 @@ export const fundingOptions: FundingOption[] = [
       "No derogatory marks on credit report"
     ],
     benefits: [
-      "0% interest for 12–21 months",
+      "0% interest for 12-21 months",
       "No collateral required",
       "Flexible use of funds",
       "Build business credit simultaneously",
@@ -86,9 +86,9 @@ export const fundingOptions: FundingOption[] = [
     color: "#059669",
     minAmount: "$10,000",
     maxAmount: "$500,000",
-    termRange: "12–36 months revolving",
-    rateRange: "7–25% APR",
-    speed: "3–10 days",
+    termRange: "12-36 months revolving",
+    rateRange: "7-25% APR",
+    speed: "3-10 days",
     creditMin: "600+",
     requirements: [
       "6+ months in business",
@@ -99,7 +99,7 @@ export const fundingOptions: FundingOption[] = [
     ],
     benefits: [
       "Only pay interest on what you draw",
-      "Revolving access — reuse as you repay",
+      "Revolving access - reuse as you repay",
       "No collateral needed for most lines",
       "Builds business credit history",
       "Fast access to funds when needed",
@@ -113,7 +113,7 @@ export const fundingOptions: FundingOption[] = [
       "Draw funds as needed via portal"
     ],
     faqs: [
-      { q: "How is this different from a loan?", a: "A line of credit is revolving — you can draw and repay repeatedly. A loan gives you a lump sum with fixed payments. Lines of credit offer more flexibility for ongoing needs." },
+      { q: "How is this different from a loan?", a: "A line of credit is revolving - you can draw and repay repeatedly. A loan gives you a lump sum with fixed payments. Lines of credit offer more flexibility for ongoing needs." },
       { q: "Do I need collateral?", a: "Most lines under $150K are unsecured. Larger lines may require collateral but often come with better rates." },
       { q: "How quickly can I access funds?", a: "Once approved, you can typically draw funds within 24 hours via ACH transfer to your business bank account." },
       { q: "Can I increase my credit line?", a: "Yes, after 6-12 months of responsible use, most lenders will offer credit line increases." }
@@ -123,15 +123,15 @@ export const fundingOptions: FundingOption[] = [
     slug: "revenue-based",
     title: "Revenue-Based Funding",
     shortTitle: "Revenue-Based",
-    tagline: "Get $25K–$500K based on your monthly revenue, not your credit",
+    tagline: "Get $25K-$500K based on your monthly revenue, not your credit",
     description: "Revenue-based funding provides capital based on your business's monthly revenue rather than your personal credit score. Repayments are a fixed percentage of daily or weekly revenue, so payments flex with your business performance. Perfect for businesses with strong revenue but imperfect credit.",
     icon: "TrendingUp",
     color: "#7c3aed",
     minAmount: "$25,000",
     maxAmount: "$500,000",
-    termRange: "3–18 months",
-    rateRange: "Factor rate 1.1–1.5",
-    speed: "24–72 hours",
+    termRange: "3-18 months",
+    rateRange: "Factor rate 1.1-1.5",
+    speed: "24-72 hours",
     creditMin: "500+",
     requirements: [
       "4+ months in business",
@@ -172,9 +172,9 @@ export const fundingOptions: FundingOption[] = [
     color: "#b45309",
     minAmount: "$100,000",
     maxAmount: "$5,000,000+",
-    termRange: "1–30 years",
-    rateRange: "5.5–12% APR",
-    speed: "2–6 weeks",
+    termRange: "1-30 years",
+    rateRange: "5.5-12% APR",
+    speed: "2-6 weeks",
     creditMin: "620+",
     requirements: [
       "Property appraisal or purchase agreement",
@@ -216,9 +216,9 @@ export const fundingOptions: FundingOption[] = [
     color: "#1e40af",
     minAmount: "$25,000",
     maxAmount: "$5,000,000",
-    termRange: "5–25 years",
-    rateRange: "5.5–8% APR",
-    speed: "30–90 days",
+    termRange: "5-25 years",
+    rateRange: "5.5-8% APR",
+    speed: "30-90 days",
     creditMin: "680+",
     requirements: [
       "2+ years in business (preferred)",
@@ -244,7 +244,7 @@ export const fundingOptions: FundingOption[] = [
       "Closing and fund disbursement"
     ],
     faqs: [
-      { q: "What's the difference between SBA 7(a) and 504?", a: "SBA 7(a) is the most flexible — use funds for almost anything. SBA 504 is specifically for real estate and major equipment purchases, with even lower rates and longer terms." },
+      { q: "What's the difference between SBA 7(a) and 504?", a: "SBA 7(a) is the most flexible - use funds for almost anything. SBA 504 is specifically for real estate and major equipment purchases, with even lower rates and longer terms." },
       { q: "Can startups get SBA loans?", a: "Yes, but it's more challenging. Startups typically need a strong business plan, industry experience, and personal credit above 700. SBA microloans are often the best option for newer businesses." },
       { q: "How long does the process take?", a: "SBA loans typically take 30-90 days from application to funding. We help streamline the process by preparing your documentation upfront." },
       { q: "Are there SBA grants available?", a: "The SBA itself doesn't offer grants for most businesses, but we help identify federal, state, and local grant programs you may qualify for." }
@@ -260,9 +260,9 @@ export const fundingOptions: FundingOption[] = [
     color: "#475569",
     minAmount: "$5,000",
     maxAmount: "$2,000,000+",
-    termRange: "2–7 years",
-    rateRange: "4.5–18% APR",
-    speed: "3–10 days",
+    termRange: "2-7 years",
+    rateRange: "4.5-18% APR",
+    speed: "3-10 days",
     creditMin: "580+",
     requirements: [
       "Equipment quote or invoice",
@@ -346,7 +346,7 @@ export const fundingOptions: FundingOption[] = [
     color: "#7c3aed",
     minAmount: "N/A",
     maxAmount: "N/A",
-    termRange: "30–90 day programs",
+    termRange: "30-90 day programs",
     rateRange: "Starting at $499",
     speed: "Results in 30-90 days",
     creditMin: "Any",
@@ -472,13 +472,13 @@ export const blogPosts: BlogPost[] = [
 <p>Bank loans remain a solid option for established businesses with strong credit and financials. They offer the lowest rates but come with stringent requirements and lengthy approval processes. Most banks require 2+ years in business, strong personal credit (700+), and detailed financial documentation.</p>
 
 <h2>SBA Loans</h2>
-<p>SBA loans are government-backed and offer excellent terms — low rates (5.5-8%) and long repayment periods (up to 25 years). The tradeoff is a longer application process (30-90 days). They're ideal for businesses that can plan ahead and meet the documentation requirements.</p>
+<p>SBA loans are government-backed and offer excellent terms - low rates (5.5-8%) and long repayment periods (up to 25 years). The tradeoff is a longer application process (30-90 days). They're ideal for businesses that can plan ahead and meet the documentation requirements.</p>
 
 <h2>Alternative Funding</h2>
 <p>Alternative lenders have revolutionized business funding by using technology and data to make faster decisions. Revenue-based funding, merchant cash advances, and online lines of credit can be approved in hours rather than weeks. While rates are higher, the speed and accessibility make them valuable tools.</p>
 
 <h2>Credit Card Stacking</h2>
-<p>One of the most underutilized strategies is credit card stacking — strategically applying for multiple 0% APR business credit cards simultaneously. This can provide $50K-$250K+ in interest-free capital for 12-21 months. It requires good personal credit but offers unmatched flexibility.</p>
+<p>One of the most underutilized strategies is credit card stacking - strategically applying for multiple 0% APR business credit cards simultaneously. This can provide $50K-$250K+ in interest-free capital for 12-21 months. It requires good personal credit but offers unmatched flexibility.</p>
 
 <h2>Choosing the Right Option</h2>
 <p>The best funding option depends on your specific situation: how quickly you need capital, your credit profile, your revenue, and how you plan to use the funds. Many successful businesses use a combination of funding types to optimize their capital structure.</p>`
@@ -547,7 +547,7 @@ export const blogPosts: BlogPost[] = [
 <p>Revenue-based funding (also called a merchant cash advance or revenue advance) provides a lump sum of capital in exchange for a percentage of your future revenue. Unlike traditional loans, approval is based primarily on your business revenue rather than your credit score.</p>
 
 <h2>How Repayment Works</h2>
-<p>Repayments are typically collected daily or weekly as a fixed percentage of your revenue or a fixed daily/weekly amount. This means payments naturally adjust with your business performance — you pay more when business is good and less during slower periods.</p>
+<p>Repayments are typically collected daily or weekly as a fixed percentage of your revenue or a fixed daily/weekly amount. This means payments naturally adjust with your business performance - you pay more when business is good and less during slower periods.</p>
 
 <h2>Understanding Factor Rates</h2>
 <p>Revenue-based funding uses factor rates instead of APR. A factor rate of 1.2 on a $100K advance means you repay $120K total. Factor rates typically range from 1.1 to 1.5 depending on your risk profile and term length.</p>
@@ -566,7 +566,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min read",
     date: "February 12, 2025",
     content: `<h2>Why SBA Loans Are Worth the Effort</h2>
-<p>SBA loans offer the best terms in business lending — rates as low as 5.5%, terms up to 25 years, and amounts up to $5 million. The application process is more involved, but the savings over the life of the loan are substantial.</p>
+<p>SBA loans offer the best terms in business lending - rates as low as 5.5%, terms up to 25 years, and amounts up to $5 million. The application process is more involved, but the savings over the life of the loan are substantial.</p>
 
 <h2>Tip 1: Know Which Program Fits</h2>
 <p>The SBA 7(a) program is the most flexible and popular. The 504 program is best for real estate and equipment. Microloans (up to $50K) are ideal for startups and smaller needs.</p>
@@ -600,7 +600,7 @@ export const blogPosts: BlogPost[] = [
 <p>Different lenders specialize in different types of businesses and risk profiles. Applying to a lender that doesn't serve your industry or credit tier wastes time and can result in unnecessary credit inquiries.</p>
 
 <h2>Mistake #3: Borrowing More Than You Need</h2>
-<p>It's tempting to take the maximum amount offered, but over-leveraging your business can create cash flow problems. Calculate exactly what you need and add a reasonable buffer — don't just take the max.</p>
+<p>It's tempting to take the maximum amount offered, but over-leveraging your business can create cash flow problems. Calculate exactly what you need and add a reasonable buffer - don't just take the max.</p>
 
 <h2>Mistake #4: Ignoring the Total Cost of Capital</h2>
 <p>A low monthly payment doesn't mean a low total cost. Always calculate the total repayment amount and effective APR. A short-term advance with a 1.4 factor rate can be more expensive than a longer-term loan at 15% APR.</p>
@@ -643,21 +643,21 @@ export const processSteps = [
 export const partnerTiers = [
   {
     name: "Referral Partner",
-    commission: "1–3%",
+    commission: "1-3%",
     description: "Perfect for individuals who occasionally refer business owners seeking funding.",
     requirements: ["No minimum referrals", "Simple referral link tracking", "Monthly payouts"],
     features: ["Unique referral link", "Basic dashboard", "Email support", "Monthly commission payouts"],
   },
   {
     name: "Affiliate Partner",
-    commission: "3–5%",
+    commission: "3-5%",
     description: "For content creators, bloggers, and influencers in the business/finance space.",
     requirements: ["5+ referrals per month", "Active online presence", "Compliance with guidelines"],
     features: ["Custom landing pages", "Advanced analytics", "Priority support", "Bi-weekly payouts", "Co-branded materials"],
   },
   {
     name: "Broker Partner",
-    commission: "5–10%",
+    commission: "5-10%",
     description: "For licensed brokers and financial professionals who actively source deals.",
     requirements: ["10+ deals per month", "Industry experience", "Compliance certification"],
     features: ["White-label portal", "Real-time deal tracking", "Dedicated account manager", "Weekly payouts", "Training and certification", "Highest commission rates"],
@@ -695,7 +695,7 @@ export const faqs = [
   },
   {
     q: "Can I get multiple types of funding?",
-    a: "Absolutely. Many of our clients use a combination of funding types — for example, credit card stacking for immediate needs plus a business line of credit for ongoing cash flow management."
+    a: "Absolutely. Many of our clients use a combination of funding types - for example, credit card stacking for immediate needs plus a business line of credit for ongoing cash flow management."
   },
 ];
 

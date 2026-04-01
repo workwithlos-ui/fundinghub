@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum
+/* Design: Growth Engine - Dynamic Momentum
  * Landing page: Hero + Estimator + Funding Grid + Stats + Process + Testimonials + FAQ + CTA */
 import { useState, useEffect, useRef } from "react";
 import { Link } from "wouter";
@@ -231,7 +231,7 @@ export default function Home() {
               <h1 className="font-heading font-extrabold text-4xl md:text-5xl lg:text-6xl text-white leading-[1.1] mb-6">
                 Get Funded in{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-300">
-                  24–72 Hours
+                  24-72 Hours
                 </span>
               </h1>
               <p className="text-lg text-slate-300 leading-relaxed mb-8 max-w-lg">
@@ -241,7 +241,7 @@ export default function Home() {
               <div className="flex flex-wrap gap-4">
                 <Link href="/apply">
                   <Button size="lg" className="bg-[#059669] hover:bg-[#047857] text-white font-semibold px-8 h-12 text-base">
-                    Apply Now — It's Free <ArrowRight className="w-4 h-4 ml-2" />
+                    Apply Now - It's Free <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
                 </Link>
                 <Link href="/funding/credit-stacking">
@@ -318,7 +318,7 @@ export default function Home() {
                       </h3>
                       <p className="text-sm text-slate-500 leading-relaxed mb-3">{opt.tagline}</p>
                       <div className="flex items-center justify-between text-xs text-slate-400 pt-3 border-t border-slate-50">
-                        <span>{opt.minAmount} – {opt.maxAmount}</span>
+                        <span>{opt.minAmount} - {opt.maxAmount}</span>
                         <span className="flex items-center gap-1 text-[#1e40af] font-medium group-hover:gap-2 transition-all">
                           Learn more <ChevronRight className="w-3 h-3" />
                         </span>
@@ -393,7 +393,7 @@ export default function Home() {
                   <p className="text-sm text-slate-600 leading-relaxed mb-5">"{t.quote}"</p>
                   <div className="border-t border-slate-50 pt-4">
                     <p className="font-heading font-semibold text-sm text-slate-900">{t.name}</p>
-                    <p className="text-xs text-slate-500">{t.business} — {t.location}</p>
+                    <p className="text-xs text-slate-500">{t.business} - {t.location}</p>
                     <div className="flex items-center justify-between mt-2">
                       <span className="text-xs font-medium text-[#059669]">{t.type}</span>
                       <span className="text-xs font-bold text-[#1e40af]">{t.amount}</span>

@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum
+/* Design: Growth Engine - Dynamic Momentum
  * Applicant dashboard with localStorage-based auth */
 import { useState, useEffect } from "react";
 import { Link } from "wouter";

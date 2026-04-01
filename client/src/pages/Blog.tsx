@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum
+/* Design: Growth Engine - Dynamic Momentum
  * Blog listing and article detail */
 import { useParams, Link } from "wouter";
 import { Button } from "@/components/ui/button";

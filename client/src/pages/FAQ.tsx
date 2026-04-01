@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum */
+/* Design: Growth Engine - Dynamic Momentum */
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";

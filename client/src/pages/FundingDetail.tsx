@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum
+/* Design: Growth Engine - Dynamic Momentum
  * Individual funding option detail page */
 import { useParams, Link } from "wouter";
 import { Button } from "@/components/ui/button";
@@ -185,7 +185,7 @@ export default function FundingDetail() {
                   <Card className="card-hover p-5 border border-slate-100 bg-white cursor-pointer group h-full">
                     <OIcon className="w-6 h-6 mb-3" style={{ color: opt.color }} />
                     <h3 className="font-heading font-bold text-base text-slate-900 group-hover:text-[#1e40af] transition-colors mb-1">{opt.shortTitle}</h3>
-                    <p className="text-xs text-slate-500">{opt.minAmount} – {opt.maxAmount}</p>
+                    <p className="text-xs text-slate-500">{opt.minAmount} - {opt.maxAmount}</p>
                   </Card>
                 </Link>
               );

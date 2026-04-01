@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum
+/* Design: Growth Engine - Dynamic Momentum
  * Partner program page with commission tiers */
 import { useState } from "react";
 import { Link } from "wouter";

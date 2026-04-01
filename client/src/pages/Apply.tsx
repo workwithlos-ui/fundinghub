@@ -1,4 +1,4 @@
-/* Design: Growth Engine — Dynamic Momentum
+/* Design: Growth Engine - Dynamic Momentum
  * Multi-step application: Business Info > Funding Needs > Credit > Owner > Review */
 import { useState, useEffect } from "react";
 import { Link } from "wouter";
