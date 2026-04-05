@@ -4,12 +4,14 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-body: "DM Sans", ui-sans-serif, system-ui, sans-serif;
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
+  --font-heading: "Inter", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -29,96 +31,51 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+  
   --color-success: var(--success);
   --color-success-foreground: var(--success-foreground);
 }
 
 :root {
-  --primary: oklch(0.39 0.16 264);
-  --primary-foreground: oklch(0.98 0 0);
-  --success: oklch(0.52 0.17 160);
-  --success-foreground: oklch(0.98 0 0);
-  --sidebar-primary: oklch(0.45 0.18 264);
-  --sidebar-primary-foreground: oklch(0.98 0 0);
-  --chart-1: oklch(0.55 0.15 264);
-  --chart-2: oklch(0.52 0.17 160);
-  --chart-3: oklch(0.65 0.12 264);
-  --chart-4: oklch(0.45 0.18 264);
-  --chart-5: oklch(0.35 0.14 264);
-  --radius: 0.625rem;
-  --background: oklch(0.99 0.002 250);
-  --foreground: oklch(0.18 0.02 260);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.18 0.02 260);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.18 0.02 260);
-  --secondary: oklch(0.96 0.005 250);
-  --secondary-foreground: oklch(0.35 0.03 260);
-  --muted: oklch(0.96 0.005 250);
-  --muted-foreground: oklch(0.55 0.02 260);
-  --accent: oklch(0.96 0.005 250);
-  --accent-foreground: oklch(0.18 0.02 260);
-  --destructive: oklch(0.58 0.24 27);
-  --destructive-foreground: oklch(0.98 0 0);
+  /* $10B Fintech Palette: Clean, Elite, Tech-forward */
+  --background: oklch(1 0 0); /* Pure White */
+  --foreground: oklch(0.15 0.01 250); /* Deep Slate/Black */
+  
+  --primary: oklch(0.2 0.01 250); /* Near Black for primary actions */
+  --primary-foreground: oklch(1 0 0);
+  
+  --secondary: oklch(0.97 0.005 250); /* Very Light Gray */
+  --secondary-foreground: oklch(0.3 0.01 250);
+  
+  --muted: oklch(0.98 0.002 250);
+  --muted-foreground: oklch(0.5 0.01 250);
+  
+  --accent: oklch(0.95 0.01 250);
+  --accent-foreground: oklch(0.15 0.01 250);
+  
   --border: oklch(0.92 0.005 250);
   --input: oklch(0.92 0.005 250);
-  --ring: oklch(0.39 0.16 264);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.18 0.02 260);
-  --sidebar-accent: oklch(0.96 0.005 250);
-  --sidebar-accent-foreground: oklch(0.18 0.02 260);
-  --sidebar-border: oklch(0.92 0.005 250);
-  --sidebar-ring: oklch(0.39 0.16 264);
+  --ring: oklch(0.2 0.01 250);
+  
+  --success: oklch(0.6 0.15 150); /* Clean Fintech Green */
+  --success-foreground: oklch(1 0 0);
+  
+  --destructive: oklch(0.55 0.2 25);
+  --destructive-foreground: oklch(1 0 0);
+  
+  --radius: 12px;
 }
 
 .dark {
-  --background: oklch(0.08 0.01 260);
-  --foreground: oklch(0.92 0.005 250);
-  --card: oklch(0.12 0.01 260);
-  --card-foreground: oklch(0.92 0.005 250);
-  --popover: oklch(0.12 0.01 260);
-  --popover-foreground: oklch(0.92 0.005 250);
-  --primary: oklch(0.65 0.18 160);
-  --primary-foreground: oklch(0.08 0.01 260);
-  --secondary: oklch(0.16 0.01 260);
-  --secondary-foreground: oklch(0.85 0.005 250);
-  --muted: oklch(0.16 0.01 260);
-  --muted-foreground: oklch(0.6 0.01 260);
-  --accent: oklch(0.16 0.01 260);
-  --accent-foreground: oklch(0.92 0.005 250);
-  --destructive: oklch(0.58 0.24 27);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.2 0.01 260);
-  --input: oklch(0.2 0.01 260);
-  --ring: oklch(0.65 0.18 160);
-  --sidebar: oklch(0.1 0.01 260);
-  --sidebar-foreground: oklch(0.92 0.005 250);
-  --sidebar-primary: oklch(0.65 0.18 160);
-  --sidebar-primary-foreground: oklch(0.08 0.01 260);
-  --sidebar-accent: oklch(0.16 0.01 260);
-  --sidebar-accent-foreground: oklch(0.92 0.005 250);
-  --sidebar-border: oklch(0.2 0.01 260);
-  --sidebar-ring: oklch(0.65 0.18 160);
-  --success: oklch(0.65 0.18 160);
-  --success-foreground: oklch(0.08 0.01 260);
-  --chart-1: oklch(0.65 0.18 160);
-  --chart-2: oklch(0.55 0.15 264);
-  --chart-3: oklch(0.7 0.15 50);
-  --chart-4: oklch(0.6 0.12 200);
-  --chart-5: oklch(0.5 0.14 320);
+  --background: oklch(0.1 0.01 250);
+  --foreground: oklch(0.98 0.005 250);
+  --card: oklch(0.12 0.01 250);
+  --card-foreground: oklch(0.98 0.005 250);
+  --primary: oklch(0.98 0.005 250);
+  --primary-foreground: oklch(0.1 0.01 250);
+  --border: oklch(0.2 0.01 250);
+  --muted: oklch(0.15 0.01 250);
+  --muted-foreground: oklch(0.6 0.01 250);
 }
 
 @layer base {
@@ -129,65 +86,63 @@
     @apply bg-background text-foreground font-body;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-heading);
-    letter-spacing: -0.02em;
-  }
-  button:not(:disabled),
-  [role="button"]:not([aria-disabled="true"]),
-  [type="button"]:not(:disabled),
-  [type="submit"]:not(:disabled),
-  [type="reset"]:not(:disabled),
-  a[href],
-  select:not(:disabled),
-  input[type="checkbox"]:not(:disabled),
-  input[type="radio"]:not(:disabled) {
-    @apply cursor-pointer;
+    @apply font-heading font-semibold tracking-tight;
+    letter-spacing: -0.03em;
   }
 }
 
 @layer components {
   .container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    @apply w-full mx-auto px-6 max-w-7xl;
   }
 
-  .flex {
-    min-height: 0;
-    min-width: 0;
+  /* Glassmorphism & Premium Effects */
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_0_rgba(0,0,0,0.05)];
+  }
+  
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-xl border border-white/10;
   }
 
-  @media (min-width: 640px) {
-    .container {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-    }
+  .premium-shadow {
+    @apply shadow-[0_1px_2px_rgba(0,0,0,0.02),0_4px_12px_rgba(0,0,0,0.03),0_12px_24px_rgba(0,0,0,0.04)];
   }
 
-  @media (min-width: 1024px) {
-    .container {
-      padding-left: 2rem;
-      padding-right: 2rem;
-      max-width: 1280px;
-    }
+  .subtle-grid {
+    background-image: radial-gradient(circle at 1px 1px, var(--border) 1px, transparent 0);
+    background-size: 40px 40px;
   }
 
-  .gradient-text {
-    background: linear-gradient(135deg, #1e40af 0%, #059669 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  /* Micro-interactions */
+  .hover-lift {
+    @apply transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl;
   }
 
-  .card-hover {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  .btn-premium {
+    @apply relative overflow-hidden transition-all duration-300 active:scale-[0.98];
   }
-  .card-hover:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px -12px rgba(30, 64, 175, 0.15);
+  
+  .btn-premium::after {
+    content: '';
+    @apply absolute inset-0 bg-white/10 opacity-0 transition-opacity duration-300;
   }
+  
+  .btn-premium:hover::after {
+    @apply opacity-100;
+  }
+}
+
+/* Custom Animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
 }
