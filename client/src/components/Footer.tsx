@@ -3,7 +3,7 @@ import { ArrowRight, Twitter, Linkedin, Github } from "lucide-react";
 
 const footerLinks = {
   "Funding Options": [
-    { label: "Credit Card Stacking", href: "/funding/credit-stacking" },
+    { label: "Unsecured Business Capital", href: "/funding/credit-stacking" },
     { label: "Lines of Credit", href: "/funding/lines-of-credit" },
     { label: "Revenue-Based Funding", href: "/funding/revenue-based" },
     { label: "Real Estate Funding", href: "/funding/real-estate" },

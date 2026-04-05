@@ -1,5 +1,5 @@
 /* Design: Growth Engine - Dynamic Momentum
- * Funding calculators: Loan Payment + Credit Stacking */
+/* Funding calculators: Loan Payment + Business Capital Estimator */
 import { useState } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
@@ -106,11 +106,11 @@ function StackingCalculator() {
         </div>
         <div className="bg-blue-50 border border-blue-100 rounded-lg p-4">
           <p className="text-xs font-medium text-[#1e40af] mb-1">How it works</p>
-          <p className="text-sm text-slate-600">We estimate average credit limits based on your score and the number of strategic applications. Actual results may vary based on your full credit profile.</p>
+          <p className="text-sm text-slate-600">We estimate available unsecured capital based on your credit score. Actual results depend on your full credit profile and will be confirmed during your free consultation.</p>
         </div>
       </div>
       <div className="bg-slate-50 rounded-xl p-6">
-        <h3 className="font-heading font-bold text-lg text-slate-900 mb-6">Stacking Estimate</h3>
+        <h3 className="font-heading font-bold text-lg text-slate-900 mb-6">Capital Estimate</h3>
         <div className="space-y-4">
           <div className="bg-white rounded-lg p-4 border border-slate-100">
             <p className="text-xs text-slate-500">Estimated Total Credit</p>
@@ -127,12 +127,12 @@ function StackingCalculator() {
             </div>
           </div>
           <div className="bg-emerald-50 border border-emerald-100 rounded-lg p-3">
-            <p className="text-xs text-emerald-800">At 0% APR for 12-21 months, you save compared to traditional financing at 18% APR.</p>
+            <p className="text-xs text-emerald-800">At 0% intro rate for 12–21 months, you save significantly compared to traditional financing at 18% APR.</p>
           </div>
         </div>
         <Link href="/apply">
           <Button className="w-full mt-6 bg-[#059669] hover:bg-[#047857] text-white font-semibold">
-            Start Credit Card Stacking <ArrowRight className="w-4 h-4 ml-2" />
+            Apply for Business Capital <ArrowRight className="w-4 h-4 ml-2" />
           </Button>
         </Link>
       </div>
@@ -149,7 +149,7 @@ export default function Calculators() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <p className="text-sm font-semibold text-emerald-400 uppercase tracking-wider mb-3">Tools</p>
             <h1 className="font-heading font-extrabold text-3xl md:text-5xl text-white mb-4">Funding Calculators</h1>
-            <p className="text-lg text-slate-300 max-w-xl">Estimate your monthly payments and see how much you could access through credit card stacking.</p>
+            <p className="text-lg text-slate-300 max-w-xl">Estimate your monthly payments and see how much unsecured business capital you could access.</p>
           </motion.div>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function Calculators() {
                 <Calculator className="w-4 h-4 mr-1.5" /> Loan Payment Calculator
               </TabsTrigger>
               <TabsTrigger value="stacking" className="rounded-lg text-sm font-medium data-[state=active]:bg-[#1e40af] data-[state=active]:text-white px-6">
-                <CreditCard className="w-4 h-4 mr-1.5" /> Credit Stacking Calculator
+                <CreditCard className="w-4 h-4 mr-1.5" /> Business Capital Estimator
               </TabsTrigger>
             </TabsList>
 
@@ -176,8 +176,8 @@ export default function Calculators() {
 
             <TabsContent value="stacking">
               <Card className="p-6 md:p-8 border border-slate-100 bg-white">
-                <h2 className="font-heading font-bold text-xl text-slate-900 mb-1">Credit Card Stacking Calculator</h2>
-                <p className="text-sm text-slate-500 mb-6">Estimate how much 0% interest credit you could access through strategic card applications.</p>
+                <h2 className="font-heading font-bold text-xl text-slate-900 mb-1">Business Capital Estimator</h2>
+                <p className="text-sm text-slate-500 mb-6">Estimate how much unsecured business capital you could access based on your credit profile.</p>
                 <StackingCalculator />
               </Card>
             </TabsContent>

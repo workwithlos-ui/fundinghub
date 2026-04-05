@@ -35,10 +35,10 @@ export interface FundingOption {
 export const fundingOptions: FundingOption[] = [
   {
     slug: "credit-stacking",
-    title: "0% Credit Card Stacking",
-    shortTitle: "Credit Card Stacking",
-    tagline: "Access $50K-$250K+ in 0% interest business credit cards",
-    description: "Our credit card stacking program helps you secure multiple 0% APR business credit cards simultaneously, giving you access to substantial capital with no interest for 12-21 months. This is the fastest, most flexible funding option for businesses with good personal credit.",
+    title: "Unsecured Business Capital",
+    shortTitle: "Business Capital",
+    tagline: "Access $50K–$250K+ in unsecured capital with 0% intro rates",
+    description: "Get access to substantial unsecured business capital with 0% introductory rates for 12–21 months. No collateral, no lengthy bank process. This is the fastest, most flexible funding option for businesses with solid personal credit — capital in your account in as little as 7 days.",
     icon: "CreditCard",
     color: "#1e40af",
     minAmount: "$50,000",
@@ -396,8 +396,8 @@ export const testimonials: Testimonial[] = [
     business: "Johnson's Auto Repair",
     location: "Atlanta, GA",
     amount: "$175,000",
-    type: "Credit Card Stacking",
-    quote: "FundingHub helped me secure $175K in 0% credit cards in just 10 days. I used the capital to open my second location. The process was straightforward and the team guided me every step of the way.",
+    type: "Unsecured Business Capital",
+    quote: "I needed capital to open my second location and FundingHub had me funded in 10 days. No collateral, no endless paperwork. The process was shockingly simple and the team was with me every step.",
     rating: 5
   },
   {
@@ -477,33 +477,33 @@ export const blogPosts: BlogPost[] = [
 <h2>Alternative Funding</h2>
 <p>Alternative lenders have revolutionized business funding by using technology and data to make faster decisions. Revenue-based funding, merchant cash advances, and online lines of credit can be approved in hours rather than weeks. While rates are higher, the speed and accessibility make them valuable tools.</p>
 
-<h2>Credit Card Stacking</h2>
-<p>One of the most underutilized strategies is credit card stacking - strategically applying for multiple 0% APR business credit cards simultaneously. This can provide $50K-$250K+ in interest-free capital for 12-21 months. It requires good personal credit but offers unmatched flexibility.</p>
+<h2>Unsecured Business Capital</h2>
+<p>One of the most powerful and underutilized funding strategies is accessing unsecured business capital at 0% introductory rates. This can provide $50K–$250K+ in interest-free capital for 12–21 months. It requires solid personal credit but offers unmatched flexibility with no collateral required.</p>
 
 <h2>Choosing the Right Option</h2>
 <p>The best funding option depends on your specific situation: how quickly you need capital, your credit profile, your revenue, and how you plan to use the funds. Many successful businesses use a combination of funding types to optimize their capital structure.</p>`
   },
   {
     slug: "credit-card-stacking-strategy",
-    title: "How Credit Card Stacking Can Fund Your Business at 0% Interest",
-    excerpt: "Learn the insider strategy that helps business owners access $50K-$250K in 0% interest funding through strategic credit card applications.",
+    title: "How to Access $50K–$250K in Unsecured Business Capital at 0% Interest",
+    excerpt: "Learn how business owners with solid credit are accessing $50K–$250K in unsecured capital at 0% interest — no collateral, no lengthy bank process.",
     category: "Strategy",
     readTime: "6 min read",
     date: "March 8, 2025",
-    content: `<h2>What Is Credit Card Stacking?</h2>
-<p>Credit card stacking is the strategic process of applying for multiple business credit cards with 0% introductory APR offers simultaneously. By timing applications correctly and choosing the right cards, you can access substantial capital without paying any interest for 12-21 months.</p>
+    content: `<h2>What Is Unsecured Business Capital?</h2>
+<p>Unsecured business capital gives you access to $50K–$250K+ in funding without putting up any collateral. By leveraging your strong personal credit profile, you can access substantial capital at 0% introductory rates for 12–21 months — giving you real runway to grow your business without the cost of traditional financing.</p>
 
 <h2>How It Works</h2>
-<p>The key is applying for multiple cards within a short window (typically 1-2 days) before the inquiries show up on your credit report. Each card may approve you for $10K-$50K, and with 5-10 cards, the total can reach $50K-$250K or more.</p>
+<p>Our team analyzes your credit profile and identifies the best combination of business credit products for your situation. We guide the entire process to maximize your total approved amount while minimizing impact on your credit score.</p>
 
 <h2>Who Qualifies</h2>
-<p>You'll need a personal credit score of 680+, a clean credit report with no recent derogatory marks, and fewer than 6 hard inquiries in the last 6 months. The stronger your credit profile, the higher your total approved limits will be.</p>
+<p>You'll need a personal credit score of 680+, a clean credit report with no recent derogatory marks, and fewer than 6 hard inquiries in the last 6 months. The stronger your credit profile, the more capital you can access.</p>
 
 <h2>The Strategic Approach</h2>
-<p>Success requires careful planning: choosing the right card issuers, timing applications, and managing the cards properly afterward. Working with an experienced funding advisor significantly increases your success rate and total approved amounts.</p>
+<p>Success requires careful planning: identifying the right products, timing applications, and managing the accounts properly afterward. Working with an experienced funding advisor significantly increases your success rate and total approved amounts.</p>
 
-<h2>After the 0% Period</h2>
-<p>Smart business owners plan their exit strategy before the introductory period ends. Options include paying off balances from business revenue, transferring to new 0% offers, or converting to a business line of credit.</p>`
+<h2>Planning Ahead</h2>
+<p>Smart business owners plan their capital strategy before the introductory period ends. Options include paying off balances from business revenue, refinancing to a business line of credit, or using the capital to generate enough ROI that the cost is irrelevant.</p>`
   },
   {
     slug: "improve-business-credit-score",
@@ -671,7 +671,7 @@ export const faqs = [
   },
   {
     q: "What credit score do I need?",
-    a: "It depends on the funding type. Revenue-based funding accepts scores as low as 500. Business lines of credit typically require 600+. Credit card stacking and SBA loans generally need 680+. We have options for virtually every credit profile."
+    a: "It depends on the funding type. Revenue-based funding accepts scores as low as 500. Business lines of credit typically require 600+. Unsecured business capital and SBA loans generally need 680+. We have options for virtually every credit profile."
   },
   {
     q: "Will applying affect my credit score?",
@@ -695,7 +695,7 @@ export const faqs = [
   },
   {
     q: "Can I get multiple types of funding?",
-    a: "Absolutely. Many of our clients use a combination of funding types - for example, credit card stacking for immediate needs plus a business line of credit for ongoing cash flow management."
+    a: "Absolutely. Many of our clients use a combination of funding types — for example, unsecured business capital for immediate growth plus a business line of credit for ongoing cash flow management."
   },
 ];
 

@@ -11,7 +11,7 @@ interface Message {
 
 const SUGGESTED_PROMPTS = [
   "I need $100K for my business with a 720 credit score",
-  "Compare SBA loans vs credit card stacking for a startup",
+  "Compare SBA loans vs unsecured business capital for a startup",
   "What funding options exist for a business under 1 year old?",
   "I have $50K/month revenue and need working capital fast",
 ];
